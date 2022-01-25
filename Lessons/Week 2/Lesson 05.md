@@ -95,3 +95,19 @@ int Square(int x) {
 1. Function's parameters are initialized
 2. Control is transferred to Square 
 3. Return value is transfered back to calling function
+
+## HW Tip
+``` cpp
+// Use division by 10 to chop int by 1 digit
+// Use modulo by 10 to retrieve last digit
+
+int n = 123;
+int lastDigit = 0;
+
+n = n / 10;
+lastDigit = n % 10;
+// NOW: n is 12, lastDigit is 2
+n = n / 10;
+lastDigit = n % 10;
+// NOW: n is 1, lastDigit is 1
+```
