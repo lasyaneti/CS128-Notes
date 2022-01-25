@@ -58,7 +58,7 @@ int Square(int x) {
 ``` 
 In our case, we will do the declaration of the function in the header file (.h), define the function in a different file (.cc), and include the file in our main file. **This way, we never need to see the C++ files, the header file tells us all the functions avalible to us and what informatin they use/return!** 
 
-### my_math_aps.h
+### my_math_ops.h
 ``` cpp
 #ifndef MY_MATH_OPS_H
 #define MY_MATH_OPS_H
