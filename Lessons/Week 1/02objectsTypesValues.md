@@ -26,7 +26,7 @@
 ### int 
 - Integer value: short, int, long
 - 10, 29, 992492
-- ints come in signed/unsigned form, signed is default for "plain" ints
+- ints come in **signed** (can hold all ints)/**unsigned** (CAN ONLY HOLD POSITIVE INTS!) form, signed is default for "plain" ints
 - Integer literals: decimal (base 10)
   - Prefix: 0b is binary (base 2), 0 is octal (base 8), 0x is hexademical (base 16)
   - Suffix: U for unassigned literals, L for long literals
