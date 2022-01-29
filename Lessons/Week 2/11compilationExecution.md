@@ -1,7 +1,7 @@
 # 01/28/21: Compilation and Execution
 
 ## Compilation Pipeline (broken down further below)
-![pipeline](./Images/cpp_pipeline.jpeg)
+![pipeline](./Images/cpp_pipeline.png)
 1. HelloWorld.cpp and header files (.h)
 2. **Preprocessor** (translation unit) -> temp file -> fed to compiler
 3. Compiler takes source code -> generates **assembly file** (.s)
