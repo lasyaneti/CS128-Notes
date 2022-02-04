@@ -37,5 +37,6 @@ double AreaRectangle(double width, double height) {
 ## Pre/Post Conditions
 | Precondition | Postcondition |
 | ------------ | ------------- |
+| Data sent to the function is a useable format to perform desired action | The thing that was intended by the function is actually done |
 | A condition/predicate must be true just prior to the execution of some section | A condition that must be true after the execution of some section of code |
 | If the precondition is violated, the effect of the code is undefined | Provided a valid precondition, we should arrive at the valid postcondition, though sometimes we'll need to check |
