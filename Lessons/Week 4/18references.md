@@ -86,6 +86,10 @@ int main() {
 ```
 
 ## When to pass by reference
-
+- Modify arguments that are bound to reference, ex: swap function
+- Avoid copies, especially with objects become really big or some types (like IO) cannot be copied
 
 ## Guides for passing arguments 
+- Use **pass by value** for small objects, primitive types, a simple copy is effective 
+- Use **pass by reference to const** for large objects, ex: std::vector and std::string
+- Use **"vanilla" pass by reference** only when you REALLY need to modify the variable of the object itself. Favor returning result over this. 
