@@ -62,6 +62,8 @@ class Color {
 ```
 ### color.cpp
 ``` cpp
+#include "color_hpp"
+
 // mutator
 void Color::r(int rr) {
     if (ValidColorValue(rr)) {
@@ -73,9 +75,9 @@ void Color::r(int rr) {
 
 // accessors
 // const appears after call to indicate that function will not change state of object for which it is called 
-int Color::r() const {return r_};
-int Color::g() const {return g_};
-int Color::b() const {return b_};
+int Color::r() const {return r_; }
+int Color::g() const {return g_; }
+int Color::b() const {return b_; }
 
 // helper function
 bool Color::ValidColorValue(int value) const {
