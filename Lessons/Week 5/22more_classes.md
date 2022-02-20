@@ -36,7 +36,7 @@ Color::Color(): r_(0), g_(0), b_(0) {
 ### Parametrized constructors
 File name: color.hpp
 ``` cpp
-Color(int rr, int gg, int bb);
+Color(int r, int g, int b);
 ```
 
 File name: color.cpp
