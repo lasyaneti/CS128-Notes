@@ -6,7 +6,7 @@
 
 ## struct vs. class
 - Members of a struct are PUBLIC by default, can be accessed with dot notation (c.r)
-- structs are used in data structures where the memberes can take any value 
+- structs are used in data structures where the members can take any value 
 ``` cpp
 struct Color {
     int r;
