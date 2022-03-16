@@ -83,4 +83,4 @@ Array2D::~Array2D() { delete[] array_; }
 ## C++ Rule of Three
 - If either copy constructor, copy assignment, or destructor is defined, **you should imeplement other 2 as well**
 - If you want deep copy, you need to implement that behavior across all the functions 
-- If you implement, implement all!
+- If you implement one, implement all!
