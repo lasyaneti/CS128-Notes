@@ -59,6 +59,7 @@ template <typename T>
 T MinVal(T a, T b);
 
 // definition
+template <typename T>
 T MinVal(T a, T b) {
     return (b > a) ? a : b;
 }
