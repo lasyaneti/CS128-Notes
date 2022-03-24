@@ -2,7 +2,7 @@
 
 ## Motivation
 - Classes can model both concrete and abstract objects 
-**Modeling: truck -> fire truck, concrete truck**
+- **Modeling: truck -> fire truck, concrete truck**
 - Truck models general overall behavior
     - Fire truck has the same behaviors as generic truck, but also details that specifically make it a fire truck
     - Concrete truck has the same behaviors as generic truck, but also details that specifically make it a concrete truck
@@ -120,7 +120,7 @@ Truck::Truck(unsigned int weight, FuelType fuel_type, unsigned int length, unsig
     // base constructor
 }
 ```
-**DERIVED: FIRETRUK**
+**DERIVED: FIRETRUCK**
 ```cpp
 FireTruck::FireTruck(unsigned int weight, FuelType fuel_type, unsigned int length, unsigned int height, unsigned int water_capacity) : Truck(weight, fuel_type, length, height), water_capacity_(water_capacity) {
     // derived constructor
