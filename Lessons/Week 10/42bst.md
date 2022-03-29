@@ -34,7 +34,7 @@ void InorderTreeWalk(Node<T>* node) {
     }
 }
 ```
-![image](./Images/bst_inorder_traversal.png)
+![image](/Images/bst_inorder_traversal.png)
 **Processing order: 4, 8, 10, 12, 14, 20, 22**
 
 ## Preorder Traversal
@@ -48,7 +48,7 @@ void PreorderTreeWalk(Node<T>* node) {
     }
 }
 ```
-![image](./Images/bst_inorder_traversal.png)
+![image](/Images/bst_inorder_traversal.png)
 **Processing order: 20, 8, 4, 12, 10, 14, 22**
 
 ## Postorder Traversal
@@ -62,5 +62,5 @@ void PostorderTreeWalk(Node<T>* node) {
     }
 }
 ```
-![image](./Images/bst_inorder_traversal.png)
+![image](/Images/bst_inorder_traversal.png)
 **Processing order: 4, 10, 14, 12, 8, 22, 20**

@@ -15,7 +15,7 @@ Stack overflow is when these two opposing memory compartments collide, meaning t
     - Arguments passed by value to the function
     - Local variables defined in the function
 - Ex: with recursive function calls 
-![Stack Function Calls](./Images/StackFunctionCall.png)
+![Stack Function Calls](/Images/StackFunctionCall.png)
 - Space required for function's activation record is known at compile time, so when the function is called that memory is automatically "**allocated**" on the stack, when the function is finished executing, that memory is "**deallocated**".
 
 ## Where the function finds the activation record
