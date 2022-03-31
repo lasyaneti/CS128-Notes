@@ -7,8 +7,6 @@
     - All values equal to or greater than parent are found in the right subtree
     - We don't even have to look at the value of the node as we traverse
 
-![image](/Images/bst_inorder_traversal.png)
-
 ### **Minimum node: keep stepping left**
 ```cpp
 template <typename T1, typename T2>
