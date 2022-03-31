@@ -35,7 +35,7 @@ void InorderTreeWalk(Node<T>* node) {
 }
 ```
 ![image](/Images/bst_inorder_traversal.png)
-**Processing order: 4, 8, 10, 12, 14, 20, 22**
+- **Processing order: 4, 8, 10, 12, 14, 20, 22**
 
 ## Preorder Traversal
 Process root FIRST, then values in either subtree
@@ -49,7 +49,7 @@ void PreorderTreeWalk(Node<T>* node) {
 }
 ```
 ![image](/Images/bst_inorder_traversal.png)
-**Processing order: 20, 8, 4, 12, 10, 14, 22**
+- **Processing order: 20, 8, 4, 12, 10, 14, 22**
 
 ## Postorder Traversal
 Process root LAST, after all values in either subtree
@@ -63,4 +63,4 @@ void PostorderTreeWalk(Node<T>* node) {
 }
 ```
 ![image](/Images/bst_inorder_traversal.png)
-**Processing order: 4, 10, 14, 12, 8, 22, 20**
+- **Processing order: 4, 10, 14, 12, 8, 22, 20**
