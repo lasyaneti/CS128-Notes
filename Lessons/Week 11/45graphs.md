@@ -22,7 +22,7 @@
     - Multigraph: more than 1 edge can connect same pair of vertices
 - Loop: node connected to itself
 - Cycle: circular path exists connecting back to starting node
-![image](/Images/cycle.jpg)
+![image](/Images/graphcycle.jpg)
 
 ## How are graphs useful
 - Social networks: collaboration, influence, hierarchy, etc
