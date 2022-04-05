@@ -20,7 +20,7 @@
 The following representations both have **space** and **time** tradeoffs.
 
 ### Adjacency-Matrix representation
-![img](\Images\graphmatrix.png)
+![img](/Images/graphmatrix.png)
 - row = source, col = destination
 - colored values show us that it is undirected (every edge goes both ways)
 - val = 1 if (i, j) in E, else 0
@@ -29,11 +29,11 @@ The following representations both have **space** and **time** tradeoffs.
 - uses more memory, but efficient to look up node edge connections
 
 ### Adjacency-List representation
-![img](\Images\graphlist.png)
+![img](/Images/graphlist.png)
 - list contains pointers to linked list
 - index = source, list = connected to 
 - uses less memory, efficient to search list to determine edge edge connections
 
 ## Etc.
 - Matrix representation is inefficient for sparce graph because u are just taking memory for a bunch of 0's, list is more efficient for that
-![img](\Images\graphrep.png)
+![img](/Images/graphrep.png)
