@@ -14,14 +14,14 @@
 
 ## Graph Types
 - Direction
-    - Undirected: edge goes both ways 
-    - Directed: edge must be specified in both directions to go both ways
+    - **Undirected**: edge goes both ways 
+    - **Directed**: edge must be specified in both directions to go both ways
 ![image](/Images/degree.jpg)
 - Edge 
-    - Simple: no two edges connect the same pair 
-    - Multigraph: more than 1 edge can connect same pair of vertices
-- Loop: node connected to itself
-- Cycle: circular path exists connecting back to starting node
+    - **Simple**: no two edges connect the same pair 
+    - **Multigraph**: more than 1 edge can connect same pair of vertices
+- **Loop**: node connected to itself
+- **Cycle**: circular path exists connecting back to starting node
 ![image](/Images/graphcycle.jpg)
 
 ## How are graphs useful
