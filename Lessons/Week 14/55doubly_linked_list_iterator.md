@@ -1,14 +1,14 @@
 # 04/20/22: Implementing Doubly Linked List Iterator
 
 ## Set-up
-- current_ : Node<T>*
+- current_ : Node<\T>*
 - DoublyLinkedListIterator()
-- DoublyLinkedListIterator(Node<T>* ptr)
+- DoublyLinkedListIterator(Node<\T>* ptr)
 - operator*() const : T&
-- operator++() : DoublyLinkedListIterator<T>&
-- operator++(int) : DoublyLinkedListIterator<T>
-- operator!=(const DoublyLinkedListIterator<T> & other) const : bool
-- operator==(const DoublyLinkedListIterator<T>& other) const : bool
+- operator++() : DoublyLinkedListIterator<\T>&
+- operator++(int) : DoublyLinkedListIterator<\T>
+- operator!=(const DoublyLinkedListIterator<\T> & other) const : bool
+- operator==(const DoublyLinkedListIterator<\T>& other) const : bool
 
 ## Implementation
 ```cpp
@@ -49,7 +49,7 @@ DoublyLinkedList<T>& DoublyLinkedListIterator<T>::operator++(int) {
 }
 ```
 
-## Update DoublyLinkedList<T> to use iterator
+## Update DoublyLinkedList<\T> to use iterator
 ```cpp
 class DoublyLinkedList {
 public: 
