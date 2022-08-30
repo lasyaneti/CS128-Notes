@@ -26,7 +26,7 @@
 - **INITIALIZER** (optional), ex: = 5;
 
 ## Pointers
-- Pointer is an object, it's value is the address of another object
+- Pointer is an object, its value is the address of another object
 - In the example below, both p and i are variables of objects (pointer and int, respectively) and so have their own addresses. The point of a pointer is to get the address of i and store it as the value of p
 
 ``` cpp
